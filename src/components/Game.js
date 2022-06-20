@@ -131,8 +131,10 @@ function Game(props) {
     player1 = props.player === "X" ? props.name : props.opponentName;
     player2 = props.player === "X" ? props.opponentName : props.name;
   }
+  else{
   if(props.computer) player2 = "computer"
-  if(localStorage.getItem("name")!==undefined) player1 = localStorage.getItem("name") 
+  if(localStorage.getItem("name")) player1 = localStorage.getItem("name") 
+  }
   return (
     <div className="game">
       <div className="game--title">
