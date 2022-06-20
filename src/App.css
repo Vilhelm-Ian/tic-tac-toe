@@ -1,0 +1,71 @@
+
+
+#first {
+  position: relative;
+width: 471px;
+height: 322px;
+left: 30px;
+top: 70px;
+display: inline-block;
+background: #D9D9D9;
+border-radius: 20px;
+margin-right: 10px;
+}
+
+#second {
+  position: absolute;
+width: 413px;
+height: 242px;
+margin: 40px 30px 40px 30px;
+background: #FFFFFF;
+border-radius: 20px;
+}
+
+#text {
+	position: absolute;
+	width: 108px;
+	height: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;/* identical to box height */
+color: #000000;
+margin-top: 19;
+margin-left: 30;
+}
+
+#first_phone {
+position: relative;
+width: 275px;
+height: 322px;
+left: 30px;
+top: 10px;
+background-color: #D9D9D9;
+border-radius: 20px;
+}
+
+#second_phone {
+position: absolute;
+width: 207px;
+height: 242px;
+background: #FFFFFF;
+border-radius: 20px;
+margin: 40px 34px 40px 34px;
+}
+
+#text_phone {
+	position: absolute;
+	width: 108px;
+	height: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;/* identical to box height */
+color: #000000;
+margin-top: 19;
+margin-left: 30;
+}
+
+

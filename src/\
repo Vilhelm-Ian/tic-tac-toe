@@ -1,0 +1,44 @@
+import {is_it_solved} from "./is_won.js"
+
+function Branch(move,game,turn){
+   this.move = move
+   this.game = game 
+   this.turn = turn
+   this.solved = is_it_solved(this.game)
+   this.result = undefined
+   this.setGame = ()=>{
+   this.game[this.move.x][this.move.y] = this.turn
+   }
+   this.setGame()
+}
+
+function branches(game,turn) {
+  let branches = []
+  for(let y = 0; y < game.length; y++) {
+    for(let x = 0; x < game[0].length; x++) {
+      let move = game[y][x]
+      if(move===" ") branches.push(new Branch({x,y},game,turn))
+    } 
+  } 
+  return branches
+}
+
+function solve_all_branches(game,turn){
+let all_branches = branches(game,turn)
+  all_branches = all_branches.map(branch=>{
+    if(branch.solved && turn==branch.turn) branch.result = 2
+  })  
+return all_branches 
+}
+
+function find_best_move(branches) {
+  return {x:0,y:0}
+}
+
+
+
+export {
+  branches,
+  solve_all_branches,
+  find_best_move
+}

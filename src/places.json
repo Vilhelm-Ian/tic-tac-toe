@@ -1,0 +1,55 @@
+{
+    "places": [{"title": "Mount Fuji",
+
+        "location": "Japan",
+
+        "googleMapsUrl": "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+
+        "startDate": "12 Jan, 2021",
+
+        "endDate": "24 Jan, 2021 ",
+
+        "description": "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,3 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
+
+        "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2018%2F09%2F25%2F596155-Mount_Fuji-Japan-landscape.jpg&f=1&nofb=1"
+    },{"title": "Wall of china",
+
+        "location": "CHina",
+
+        "googleMapsUrl": "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+
+        "startDate": "12 Jan, 2021",
+
+        "endDate": "24 Jan, 2021 ",
+
+        "description": "The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng) is a seriborder in the north to Tao River (Taohe) in the south; along an arc that roughly delineates the edge of the Mongolian steppe; spanning 21,196.18 km (13,170.70 mi) in total.[7][3] today, the defensive system of the Great Wall is generally recognized as one of the most impressive architectural feats in History.[8",
+
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/250px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+    },{"title": "Mount rush more",
+
+        "location": "USA",
+
+        "googleMapsUrl": "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+
+        "startDate": "12 Jan, 2021",
+
+        "endDate": "24 Jan, 2021 ",
+
+        "description": "Mount Rushmore National Memorial is centered on a colossal sculpture carved into the granite face of Mount Rushmore in the Black Hills near Keystone, South Dakota. Sculptor Gutzon Borglum created the sculpture's design and oversaw the project's execution from 1927 to 194",
+
+        "imageUrl": "https://duckduckgo.com/i/4c606ebf.jpg"
+    },{"title": "Efel tower",
+
+        "location": "Paris",
+
+        "googleMapsUrl": "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+
+        "startDate": "12 Jan, 2021",
+
+        "endDate": "24 Jan, 2021 ",
+
+        "description": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the towe",
+
+        "imageUrl": "https://duckduckgo.com/i/fcd23f18.jpg"
+    }]
+}
