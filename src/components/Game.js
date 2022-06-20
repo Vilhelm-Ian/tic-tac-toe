@@ -131,6 +131,7 @@ function Game(props) {
     player1 = props.player === "X" ? props.name : props.opponentName;
     player2 = props.player === "X" ? props.opponentName : props.name;
   }
+  if(props.computer) player2 = "computer"
 
   return (
     <div className="game">
