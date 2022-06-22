@@ -142,7 +142,7 @@ dialog {
 
 .square {
 	border: 0.2rem solid black;
-	font-size: 20vw;
+	font-size: clamp(1rem, 20vw, 20rem);
 	width: 100%;
 	border-bottom-style: none;
 	display:flex;

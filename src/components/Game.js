@@ -160,7 +160,9 @@ function Game(props) {
         setGameData={setGameData}
         setGame={setGame}
       />
+      <div className="board">
       <div className="grid"> {squares} </div>
+      </div>
     </div>
   );
 }
