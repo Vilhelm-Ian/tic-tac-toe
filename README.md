@@ -1,4 +1,4 @@
-tic-tac-toe-responsive.herokuapp.com/
+https://tic-tac-toe-responsive.herokuapp.com/
 
 # Getting Started with Create React App
 
